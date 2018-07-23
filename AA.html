@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+<script language="JavaScript">
+
+function random_imglink(){
+var myimages=new Array()
+myimages[1]="images/1.jpg"
+myimages[2]="images/2.jpg"
+myimages[3]="images/3.jpg"
+myimages[4]="images/4.jpg"
+myimages[5]="images/5.jpg"
+myimages[6]="images/6.jpg"
+myimages[7]="images/7.jpg"
+myimages[8]="images/8.jpg"
+myimages[9]="images/9.jpg"
+myimages[10]="images/10.jpg"
+
+var ry=Math.floor(Math.random()*myimages.length)
+if (ry==0)
+ry=1
+document.write('<img src="'+myimages[ry]+'" border=0>')
+}
+random_imglink()
+
+</script>
+
+<head><title>1PC</title><link rel="shortcut icon" href="images/logo.png"> 
+<link rel="stylesheet" type="text/css" href="AA.css">
+</head><body></body>
+</html>
